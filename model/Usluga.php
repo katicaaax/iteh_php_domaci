@@ -71,7 +71,7 @@ class Usluga {
         $podaciIzBaze = $mysqli->query("SELECT usluga_id, usluga_naziv, usluga_opis, usluga_cena, kozmeticki_salon_naziv 
                                         FROM kozmeticki_salon, usluga 
                                         WHERE kozmeticki_salon.kozmeticki_salon_id=usluga.kozmeticki_salon_id
-                                        ORDER BY usluga_id ASC");
+                                        ORDER BY usluga_naziv ASC");
         $uslugaNiz = array();
         while ($red = $podaciIzBaze->fetch_assoc()) {
             $usluga = new usluga();
@@ -91,7 +91,7 @@ class Usluga {
         $podaciIzBaze = $mysqli->query("SELECT usluga_id, usluga_naziv, usluga_opis, usluga_cena, kozmeticki_salon_naziv 
                                         FROM kozmeticki_salon, usluga 
                                         WHERE kozmeticki_salon.kozmeticki_salon_id=usluga.kozmeticki_salon_id
-                                        ORDER BY usluga_id DESC");
+                                        ORDER BY usluga_naziv DESC");
         $uslugaNiz = array();
         while ($red = $podaciIzBaze->fetch_assoc()) {
             $usluga = new usluga();
@@ -99,7 +99,7 @@ class Usluga {
             $usluga->setUsluga_naziv($red['usluga_naziv']);
             $usluga->setUsluga_opis($red['usluga_opis']);
             $usluga->setUsluga_cena($red['usluga_cena']);
-            $usluga->setAuto_servis_id($red['kozmeticki_salon_naziv']);
+            $usluga->setKozmeticki_salon_id($red['kozmeticki_salon_naziv']);
 
             array_push($uslugaNiz, $usluga);
         }
@@ -118,7 +118,7 @@ class Usluga {
             $usluga->setUsluga_naziv($red['usluga_naziv']);
             $usluga->setUsluga_opis($red['usluga_opis']);
             $usluga->setUsluga_cena($red['usluga_cena']);
-            $usluga->setAuto_servis_id($red['kozmeticki_salon_naziv']);
+            $usluga->setKozmeticki_salon_id($red['kozmeticki_salon_naziv']);
 
             array_push($uslugaNiz, $usluga);
         }

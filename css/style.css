@@ -53,7 +53,7 @@ body a {
 }
 
 .menu li a:hover {
-	color: #e4551d;
+	color: #b63291;
 	background: rgba(8, 0, 0, 0.548);
 }
 .toggleMenu {
@@ -222,7 +222,7 @@ ul.test_box li.test_desc h4 a {
 	text-decoration: none;
 }
 ul.test_box li.test_desc h4 a:hover {
-	color: #e4551d;
+	color: #482a1f;
 }
 ul.test_box li.test_desc p {
 	color: #888;
@@ -236,7 +236,7 @@ a:focus {
 	color: #7cc4cc;
 }
 .feature_grid1 .fa, .feature_grid2 .fa {
-	color: #e4551d;
+	color: #823212;
 }
 .fa-facebook-square:hover {
 	color: #3b5998;

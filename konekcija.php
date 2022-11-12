@@ -1,6 +1,6 @@
 <?php
 
-$mysql_server = "localhost";
+$mysql_server = "localhost:3306";
 $mysql_user = "root";
 $mysql_password = "";
 $mysql_db = "db_kozmeticki_salon";

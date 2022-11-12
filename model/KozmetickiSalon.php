@@ -17,7 +17,7 @@ class KozmetickiSalon {
         $this->kozmeticki_salon_id = $kozmeticki_salon_id;
     }
 
-    public function setKozmeticki_salon_id($kozmeticki_salon_naziv) {
+    public function setKozmeticki_salon_naziv($kozmeticki_salon_naziv) {
         $this->kozmeticki_salon_naziv= $kozmeticki_salon_naziv;
     }
 
