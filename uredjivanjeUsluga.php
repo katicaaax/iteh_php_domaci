@@ -18,7 +18,7 @@ if (isset($_POST['usluga_naziv'])) {
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Kozmeticki saloni</title>
+        <title>Kozmetički saloni</title>
         <meta charset="UTF-8">
 
         <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -80,7 +80,7 @@ if (isset($_POST['usluga_naziv'])) {
         <div class="container">
             <section class="title-section">
                 <h1 class="text-center" class="title-header"> Informacije o uslugama </h1>
-                <a href="index.php">< Povratak na pocetnu</a>
+                <a href="index.php">< Povratak na početnu stranu</a>
             </section>
         </div>
     </div>

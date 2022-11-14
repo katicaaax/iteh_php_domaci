@@ -11,7 +11,7 @@ if (isset($_POST['kozmeticki_salon_naziv'])) {
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Kozmeticki saloni</title>
+        <title>Kozmetički saloni</title>
         <meta charset="UTF-8">
 
         <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -50,7 +50,7 @@ if (isset($_POST['kozmeticki_salon_naziv'])) {
                         if (data == 'OK') {
                             location.reload();
                         } else {
-                            alert('Greska');
+                            alert('Greška');
                         }
                     });
             }
@@ -59,15 +59,15 @@ if (isset($_POST['kozmeticki_salon_naziv'])) {
     <div class="about">
         <div class="container">
             <section class="title-section">
-                <h1 class="text-center" class="title-header"> Informacije o kozmetickim salonima </h1>
-                <a href="index.php">< Povratak na pocetnu</a>
+                <h1 class="text-center" class="title-header"> Informacije o kozmetičkim salonima </h1>
+                <a href="index.php">< Povratak na početnu</a>
             </section>
         </div>
     </div>
 
     <div class="container">
         <div id="content_left">
-            <h1 class="text-center">Unos kozmetickog salona</h1>
+            <h1 class="text-center">Unos kozmetičkog salona</h1>
 
             <div class="box">
 
@@ -80,7 +80,7 @@ if (isset($_POST['kozmeticki_salon_naziv'])) {
 
                 
                 <form class="form-group"  action="" method="POST" name="unos" >
-                    <p>Naziv kozmetickog salona</p>
+                    <p>Naziv kozmetičkog salona</p>
                     <input class="form-control" type="text" name="kozmeticki_salon_naziv" >
                     <p></p><br><br>
                     <button type="submit" class="form-control" class="btn btn-danger">Zapamti</button>
