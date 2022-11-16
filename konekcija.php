@@ -3,7 +3,7 @@
 $mysql_server = "localhost:3306";
 $mysql_user = "root";
 $mysql_password = "";
-$mysql_db = "db_kozmeticki_salon";
+$mysql_db = "db_frizerski_salon";
 
 $mysqli = new mysqli($mysql_server, $mysql_user, $mysql_password, $mysql_db);
 if ($mysqli->connect_errno) {
